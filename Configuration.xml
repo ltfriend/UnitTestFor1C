@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Configuration uuid="4e831d43-eb58-4054-890a-c810b5bb3f4b">
+		<InternalInfo>
+			<xr:ContainedObject>
+				<xr:ClassId>9cd510cd-abfc-11d4-9434-004095e12fc7</xr:ClassId>
+				<xr:ObjectId>2ec196ec-0f00-4f44-8564-6f5995d13396</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9fcd25a0-4822-11d4-9414-008048da11f9</xr:ClassId>
+				<xr:ObjectId>86b8ef26-67c8-4fa9-ad74-da61d3f14d24</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e3687481-0a87-462c-a166-9f34594f9bba</xr:ClassId>
+				<xr:ObjectId>15e9657a-b81c-44d5-92f5-afb303bbb107</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>9de14907-ec23-4a07-96f0-85521cb6b53b</xr:ClassId>
+				<xr:ObjectId>c4617964-d68d-46fa-95e4-ff2f11e5ddf0</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>51f2d5d8-ea4d-4064-8892-82951750031e</xr:ClassId>
+				<xr:ObjectId>8cb7497c-2202-40f8-81d8-36c1110b7437</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>e68182ea-4237-4383-967f-90c1e3370bc7</xr:ClassId>
+				<xr:ObjectId>fe4b0d3e-3b04-4986-8093-2d99f6022020</xr:ObjectId>
+			</xr:ContainedObject>
+			<xr:ContainedObject>
+				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
+				<xr:ObjectId>7f375fff-6ff9-4864-8d28-c54db5ba1aa6</xr:ObjectId>
+			</xr:ContainedObject>
+		</InternalInfo>
+		<Properties>
+			<Name>МодульноеТестирование</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Библиотека модульного тестирования</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+			<NamePrefix>мт_</NamePrefix>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
+			<ScriptVariant>Russian</ScriptVariant>
+			<Vendor>Толкачев Павел Владимирович</Vendor>
+			<Version>1.0.1.1</Version>
+			<BriefInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Модульное тестирование</v8:content>
+				</v8:item>
+			</BriefInformation>
+			<DetailedInformation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Библиотека для модульного тестирования</v8:content>
+				</v8:item>
+			</DetailedInformation>
+			<Copyright>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>© Толкачев П.В., 2020</v8:content>
+				</v8:item>
+			</Copyright>
+			<VendorInformationAddress>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>https://1cdevelop.ru</v8:content>
+				</v8:item>
+			</VendorInformationAddress>
+			<ConfigurationInformationAddress/>
+		</Properties>
+		<ChildObjects>
+			<Language>Русский</Language>
+			<Subsystem>мт_МодульноеТестирование</Subsystem>
+			<StyleItem>мт_ЦветТестНеПрошел</StyleItem>
+			<StyleItem>мт_ЦветТестПрошел</StyleItem>
+			<CommonPicture>мт_ВыполнитьВсеТесты</CommonPicture>
+			<CommonPicture>мт_ВыполнитьНепройденныеТесты</CommonPicture>
+			<CommonPicture>мт_ВыполнитьТест</CommonPicture>
+			<CommonPicture>мт_КоллекцияОбъектыМетаданных</CommonPicture>
+			<CommonPicture>мт_КоллекцияРезультатыТеста</CommonPicture>
+			<CommonPicture>мт_ПовторитьТесты</CommonPicture>
+			<CommonPicture>мт_РезультатТестаНеВыполнен</CommonPicture>
+			<CommonPicture>мт_РезультатТестаНеПройден</CommonPicture>
+			<CommonPicture>мт_РезультатТестаПройден</CommonPicture>
+			<CommonPicture>мт_ТестНеВыполнялся</CommonPicture>
+			<CommonPicture>мт_ТестНеПрошел</CommonPicture>
+			<CommonPicture>мт_ТестПрошел</CommonPicture>
+			<Role>мт_ВыполнениеТестирования</Role>
+			<CommonModule>мт_ТестированиеКлиентСервер</CommonModule>
+			<CommonModule>мт_ТестированиеСлужебный</CommonModule>
+			<CommonModule>мт_ТестированиеСлужебныйКлиент</CommonModule>
+			<CommonModule>мт_ТестированиеСлужебныйКлиентСервер</CommonModule>
+			<CommonModule>мт_ТестированиеСлужебныйПовтИсп</CommonModule>
+			<DataProcessor>мт_МодульноеТестирование</DataProcessor>
+		</ChildObjects>
+	</Configuration>
+</MetaDataObject>
