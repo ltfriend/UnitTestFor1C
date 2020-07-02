@@ -13,7 +13,10 @@
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.мт_РазделМодульноеТестирование</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.мт_ВыполнениеТестирования</xr:Item>
@@ -36,6 +39,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_РезультатТестаНеПройден</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйКлиент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Настройки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйКлиентПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_РазделМодульноеТестирование</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

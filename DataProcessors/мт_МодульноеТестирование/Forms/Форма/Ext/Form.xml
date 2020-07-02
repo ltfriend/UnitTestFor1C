@@ -98,6 +98,23 @@
 					</Button>
 				</ChildItems>
 			</ButtonGroup>
+			<ButtonGroup name="ГруппаНастройки" id="84">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа настройки</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ГруппаНастройкиРасширеннаяПодсказка" id="85"/>
+				<ChildItems>
+					<Button name="Настройки" id="86">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.КомандаНастройки</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="87"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
 			<ButtonGroup name="КомандыДереваТестов" id="57">
 				<Title>
 					<v8:item>
@@ -346,7 +363,7 @@
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
+							<v8:DateFractions>DateTime</v8:DateFractions>
 						</v8:DateQualifiers>
 					</Type>
 				</Column>
@@ -646,7 +663,7 @@
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
 						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
+							<v8:DateFractions>DateTime</v8:DateFractions>
 						</v8:DateQualifiers>
 					</Type>
 				</Column>
@@ -729,6 +746,21 @@
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
 							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ПолноеИмяТеста" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное имя теста</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -843,6 +875,40 @@
 				</Column>
 			</Columns>
 		</Attribute>
+		<Attribute name="НастройкиТестирования" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки тестирования</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ДатаПредыдущегоЗапуска" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата предыдущего запуска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Автозапуск" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Автозапуск</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыполнитьТест" id="1">
@@ -865,6 +931,7 @@
 			</Picture>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьВсеТесты" id="2">
 			<Title>
@@ -886,6 +953,7 @@
 			</Picture>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьНепройденныеТесты" id="3">
 			<Title>
@@ -907,6 +975,7 @@
 			</Picture>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьНевыполненныеТесты" id="4">
 			<Title>
@@ -924,6 +993,7 @@
 			<Shortcut>F8</Shortcut>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ВыполнитьПройденныеТесты" id="5">
 			<Title>
@@ -941,6 +1011,7 @@
 			<Shortcut>Alt+F8</Shortcut>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПовторитьТесты" id="6">
 			<Title>
@@ -962,6 +1033,7 @@
 			</Picture>
 			<Action>КомандаВыполнитьТесты</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьПройденныеТесты" id="7">
 			<Title>
@@ -982,6 +1054,7 @@
 			</Picture>
 			<Action>ОбновитьОтборТестовПоСтатусу</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьНепройденныеТесты" id="8">
 			<Title>
@@ -1002,6 +1075,7 @@
 			</Picture>
 			<Action>ОбновитьОтборТестовПоСтатусу</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 		<Command name="ПоказыватьНевыполненныеТесты" id="9">
 			<Title>
@@ -1022,6 +1096,34 @@
 			</Picture>
 			<Action>ОбновитьОтборТестовПоСтатусу</Action>
 			<Representation>Picture</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="КомандаНастройки" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки тестирования</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.мт_Настройки</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>КомандаНастройки</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
+	<Parameters>
+		<Parameter name="Автозапуск">
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Parameter>
+	</Parameters>
 </Form>

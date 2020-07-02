@@ -5,10 +5,14 @@
 		<Metadata name="CommonModule.мт_ТестированиеКлиентСервер.Module" id="f540a5c6-d948-4119-904e-181b68c4e518.0" configVersion="fd62da46249b16ba76f3cfcee570224e42c78e0b"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебный" id="0f4a1c45-bc65-451c-a249-06037f11f729" configVersion="d2522ef205adab7d84aeadcc13ad50c81a2121bc"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебный.Module" id="0f4a1c45-bc65-451c-a249-06037f11f729.0" configVersion="0235b717842f7e960e3a5c934bd40f2a4bbe971d"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйВызовСервера" id="cd028641-2a18-4c18-b622-f5a4c6aef96d" configVersion="5707e07ac9d62b3f33376513753e79072ba9bbdd"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйВызовСервера.Module" id="cd028641-2a18-4c18-b622-f5a4c6aef96d.0" configVersion="098f42aea1fd36ed47327e3cb9112fc1231d1a75"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиент" id="c4a7d21d-1d69-4277-ac91-eb8b1e5455bc" configVersion="d187da94266ccc57d0660f73a386a5e9986a1f92"/>
-		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиент.Module" id="c4a7d21d-1d69-4277-ac91-eb8b1e5455bc.0" configVersion="f70dadf3de779478ccd2d8c54cb254bf2f6a8d96"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиент.Module" id="c4a7d21d-1d69-4277-ac91-eb8b1e5455bc.0" configVersion="5091ed5fa8849fa561dc595eeb5f09bbb2659501"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиентПовтИсп" id="6bb5620c-b3e4-4310-8404-4a633d4d4bd4" configVersion="9e1630987183f6277b988d327db2590685c1c780"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиентПовтИсп.Module" id="6bb5620c-b3e4-4310-8404-4a633d4d4bd4.0" configVersion="edf96cb02f9fd08d5acafa85e082cf82f29cd9ce"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиентСервер" id="2086a547-9a0c-4345-9ce3-41a1edc2487f" configVersion="0bc9d48f3aaf5a7a85a525ba3dac0117d82bb6f6"/>
-		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиентСервер.Module" id="2086a547-9a0c-4345-9ce3-41a1edc2487f.0" configVersion="2264589b4137f93b78cf5f606bc46b80c898a987"/>
+		<Metadata name="CommonModule.мт_ТестированиеСлужебныйКлиентСервер.Module" id="2086a547-9a0c-4345-9ce3-41a1edc2487f.0" configVersion="9ddc543beef23800641346115ad8dbf7429f9509"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебныйПовтИсп" id="16a3f872-48ad-43a1-913a-129598282877" configVersion="6598935ad7c1ed24bd5235c77b5532cc82a8ad45"/>
 		<Metadata name="CommonModule.мт_ТестированиеСлужебныйПовтИсп.Module" id="16a3f872-48ad-43a1-913a-129598282877.0" configVersion="b30ff250e32605c6b6ca2ff7ce3cb006802678c5"/>
 		<Metadata name="CommonPicture.мт_ВыполнитьВсеТесты" id="e7ae5bc5-06b5-44f6-b91c-2236405c33c6" configVersion="062f4a2d9de8aaa019088f34af2cbcc0ae7a3983"/>
@@ -20,9 +24,13 @@
 		<Metadata name="CommonPicture.мт_КоллекцияОбъектыМетаданных" id="78870f27-c3a7-4392-9d70-d80f6a9b08f9" configVersion="a20d5125d1098ad319271e4738869bad71835dc5"/>
 		<Metadata name="CommonPicture.мт_КоллекцияОбъектыМетаданных.Picture" id="78870f27-c3a7-4392-9d70-d80f6a9b08f9.0" configVersion="8e7d4673cec2f26579a432d07923db25208d41d1"/>
 		<Metadata name="CommonPicture.мт_КоллекцияРезультатыТеста" id="8d97da85-062e-4f39-ab17-4568c192a9dc" configVersion="20f6334c41f121c700cf7b5503e0ac3b63f49cfe"/>
-		<Metadata name="CommonPicture.мт_КоллекцияРезультатыТеста.Picture" id="8d97da85-062e-4f39-ab17-4568c192a9dc.0" configVersion="165c061fa87eab884bcc4d66fc12d4090e154b39"/>
+		<Metadata name="CommonPicture.мт_КоллекцияРезультатыТеста.Picture" id="8d97da85-062e-4f39-ab17-4568c192a9dc.0" configVersion="7129760299ad80d665f226eec98713f81c01a051"/>
+		<Metadata name="CommonPicture.мт_Настройки" id="80c931b1-1691-4339-af41-23588dadc4d5" configVersion="7abc584809339198434c40e7693dca326a6e8d1f"/>
+		<Metadata name="CommonPicture.мт_Настройки.Picture" id="80c931b1-1691-4339-af41-23588dadc4d5.0" configVersion="e7ce4172e3ad59b0b88681e9cb28b50ea586c53c"/>
 		<Metadata name="CommonPicture.мт_ПовторитьТесты" id="7304d929-78d9-4cc7-ae77-be7dd284e0b7" configVersion="66926e03450f97581bcaa1244fd505fb76aacd47"/>
 		<Metadata name="CommonPicture.мт_ПовторитьТесты.Picture" id="7304d929-78d9-4cc7-ae77-be7dd284e0b7.0" configVersion="044faa893c5a30b68aab941272e0871b93e472b0"/>
+		<Metadata name="CommonPicture.мт_РазделМодульноеТестирование" id="af8b70b3-6c77-45e4-b64e-ca179788de15" configVersion="459bb90079471159c672c4905685d8fa2698b877"/>
+		<Metadata name="CommonPicture.мт_РазделМодульноеТестирование.Picture" id="af8b70b3-6c77-45e4-b64e-ca179788de15.0" configVersion="2396bae65ab4274a58179d1bb1175a58f27e65f1"/>
 		<Metadata name="CommonPicture.мт_РезультатТестаНеВыполнен" id="c483d531-b092-49b1-b71a-a888027d9f66" configVersion="c7caf460f63d705cea10f30769c348b1ccaf773a"/>
 		<Metadata name="CommonPicture.мт_РезультатТестаНеВыполнен.Picture" id="c483d531-b092-49b1-b71a-a888027d9f66.0" configVersion="684b5fd22f6c3b22b718d76a79f95593ae330c70"/>
 		<Metadata name="CommonPicture.мт_РезультатТестаНеПройден" id="5d0c19a5-ec79-4bcd-af47-22ff17a9710c" configVersion="e98861f78ad51331a5676d76c9646084715f8a0f"/>
@@ -35,19 +43,22 @@
 		<Metadata name="CommonPicture.мт_ТестНеПрошел.Picture" id="8dbeeb97-c089-428b-8f12-8674616b95e8.0" configVersion="bd44f2e87d31b34bd9de442fb2a7433a9ddb414f"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab" configVersion="ab9d1faf21d29da00bd31a62a02700579210edb3"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел.Picture" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab.0" configVersion="a66cb9d49575e9ae937480a01550e5e469d55902"/>
-		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="6ecba654e385386e7f1e73b1fdf2083c05a0301a"/>
-		<Metadata name="DataProcessor.мт_МодульноеТестирование" id="5bdf471b-a4a6-42d0-8e98-dd25cdeea743" configVersion="69392d7e70b411a240627b4f57d979ac4a85c59c">
+		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="ca417ab86b4220d032b566eb8f03fe5727b05b48"/>
+		<Metadata name="Configuration.МодульноеТестирование.ManagedApplicationModule" id="2ec196ec-0f00-4f44-8564-6f5995d13396.6" configVersion="f8a42b15b2dc8b833eaa5f3d0b795b4bfd0337da"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование" id="5bdf471b-a4a6-42d0-8e98-dd25cdeea743" configVersion="0639611af79459ed64a6190c9c7ed2bbd8afdb80">
 			<Metadata name="DataProcessor.мт_МодульноеТестирование.Command.ОбозревательТестов" id="4396312f-1d80-4238-b9b4-8058c3fb1cc4"/>
 		</Metadata>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Command.ОбозревательТестов.CommandModule" id="4396312f-1d80-4238-b9b4-8058c3fb1cc4.2" configVersion="1a2ade98370c258920405c785bf33e5747effb37"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e" configVersion="e2d2c3ec487c899fea06c966bbc5f93a9feb7136"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки.Form" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e.0" configVersion="c28225ccbafa988f5021a7b71e9c5edda77a43f0"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf" configVersion="b7147bd86b1a10d7fda2daa03edf091c1fa42eec"/>
-		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="d7a9f6f89153b322783991ada87a5e399eced3d7"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="8b30a5558479c4d22362d9a8348df2a9b54fee2e"/>
 		<Metadata name="Language.Русский" id="7552ccf8-ead6-4349-9f89-8c25a66d1140" configVersion="5de21182b9d0279bb7768d2479d7e9fa073129a6"/>
 		<Metadata name="Role.мт_ВыполнениеТестирования" id="0f1823e9-f769-4148-9a09-24cbe64b037f" configVersion="dcc71cad917dddba1c69a72bc97a5b7ddbfa17d7"/>
 		<Metadata name="Role.мт_ВыполнениеТестирования.Rights" id="0f1823e9-f769-4148-9a09-24cbe64b037f.0" configVersion="4bc4a86907c2347d2875f3100e2c9d0eda68649f"/>
 		<Metadata name="StyleItem.мт_ЦветТестНеПрошел" id="6cbfc316-8bdf-47c9-a5e6-248424fac820" configVersion="391b7d812dc9ce5bcfb7718baf08194f56617a2f"/>
 		<Metadata name="StyleItem.мт_ЦветТестПрошел" id="99fdbe2a-96dd-4158-8567-ae127e32f327" configVersion="a426afabea3575a00b319069ba7a2d9ab9343be0"/>
-		<Metadata name="Subsystem.мт_МодульноеТестирование" id="f655b9d1-ae9a-4c02-8e3c-2e1fb71d875e" configVersion="66e2d92d548b870514495c2718b5318915139a52"/>
+		<Metadata name="Subsystem.мт_МодульноеТестирование" id="f655b9d1-ae9a-4c02-8e3c-2e1fb71d875e" configVersion="77cf3b52d78b4222bab42d32e9a278f0f718bfda"/>
 		<Metadata name="Subsystem.мт_МодульноеТестирование.Subsystem.ТестируемыеОбъекты" id="5daa4134-0ac4-4883-85b8-bc95de132e96" configVersion="491f1b8fd46d41e239be2a982fb343aee46fdd01"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

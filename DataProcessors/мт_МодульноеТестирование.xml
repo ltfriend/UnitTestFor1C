@@ -29,6 +29,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
+			<Form>Настройки</Form>
 			<Command uuid="4396312f-1d80-4238-b9b4-8058c3fb1cc4">
 				<Properties>
 					<Name>ОбозревательТестов</Name>
