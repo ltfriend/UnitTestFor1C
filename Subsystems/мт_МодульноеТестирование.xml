@@ -43,10 +43,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйКлиентПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_РазделМодульноеТестирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Свернуть</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Развернуть</xr:Item>
 			</Content>
 		</Properties>
-		<ChildObjects>
-			<Subsystem>ТестируемыеОбъекты</Subsystem>
-		</ChildObjects>
+		<ChildObjects/>
 	</Subsystem>
 </MetaDataObject>

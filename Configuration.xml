@@ -47,7 +47,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Толкачев Павел Владимирович</Vendor>
-			<Version>1.0.1.2</Version>
+			<Version>1.0.1.3</Version>
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -77,6 +77,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>мт_МодульноеТестирование</Subsystem>
+			<Subsystem>мт_ТестируемыеОбъекты</Subsystem>
 			<StyleItem>мт_ЦветТестНеПрошел</StyleItem>
 			<StyleItem>мт_ЦветТестПрошел</StyleItem>
 			<CommonPicture>мт_ВыполнитьВсеТесты</CommonPicture>
@@ -86,10 +87,12 @@
 			<CommonPicture>мт_КоллекцияРезультатыТеста</CommonPicture>
 			<CommonPicture>мт_Настройки</CommonPicture>
 			<CommonPicture>мт_ПовторитьТесты</CommonPicture>
+			<CommonPicture>мт_Развернуть</CommonPicture>
 			<CommonPicture>мт_РазделМодульноеТестирование</CommonPicture>
 			<CommonPicture>мт_РезультатТестаНеВыполнен</CommonPicture>
 			<CommonPicture>мт_РезультатТестаНеПройден</CommonPicture>
 			<CommonPicture>мт_РезультатТестаПройден</CommonPicture>
+			<CommonPicture>мт_Свернуть</CommonPicture>
 			<CommonPicture>мт_ТестНеВыполнялся</CommonPicture>
 			<CommonPicture>мт_ТестНеПрошел</CommonPicture>
 			<CommonPicture>мт_ТестПрошел</CommonPicture>
