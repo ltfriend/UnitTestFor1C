@@ -47,7 +47,7 @@
 		<Metadata name="CommonPicture.мт_ТестНеПрошел.Picture" id="8dbeeb97-c089-428b-8f12-8674616b95e8.0" configVersion="bd44f2e87d31b34bd9de442fb2a7433a9ddb414f"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab" configVersion="ab9d1faf21d29da00bd31a62a02700579210edb3"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел.Picture" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab.0" configVersion="a66cb9d49575e9ae937480a01550e5e469d55902"/>
-		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="e5ad2ba94f437162d05786b7f8ed88a34949e060"/>
+		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="2ecc8fa1d745add6c72af7ec36c70331de092a3f"/>
 		<Metadata name="Configuration.МодульноеТестирование.ManagedApplicationModule" id="2ec196ec-0f00-4f44-8564-6f5995d13396.6" configVersion="f8a42b15b2dc8b833eaa5f3d0b795b4bfd0337da"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование" id="5bdf471b-a4a6-42d0-8e98-dd25cdeea743" configVersion="0639611af79459ed64a6190c9c7ed2bbd8afdb80">
 			<Metadata name="DataProcessor.мт_МодульноеТестирование.Command.ОбозревательТестов" id="4396312f-1d80-4238-b9b4-8058c3fb1cc4"/>
@@ -56,7 +56,7 @@
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e" configVersion="e2d2c3ec487c899fea06c966bbc5f93a9feb7136"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки.Form" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e.0" configVersion="c28225ccbafa988f5021a7b71e9c5edda77a43f0"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf" configVersion="b7147bd86b1a10d7fda2daa03edf091c1fa42eec"/>
-		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="0efbb2530aad75df1c5f63a8e396e975844cd8a5"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="bf62409e76844ef2f2ff563dca5304590c827f32"/>
 		<Metadata name="Language.Русский" id="7552ccf8-ead6-4349-9f89-8c25a66d1140" configVersion="5de21182b9d0279bb7768d2479d7e9fa073129a6"/>
 		<Metadata name="Role.мт_ВыполнениеТестирования" id="0f1823e9-f769-4148-9a09-24cbe64b037f" configVersion="dcc71cad917dddba1c69a72bc97a5b7ddbfa17d7"/>
 		<Metadata name="Role.мт_ВыполнениеТестирования.Rights" id="0f1823e9-f769-4148-9a09-24cbe64b037f.0" configVersion="4bc4a86907c2347d2875f3100e2c9d0eda68649f"/>
