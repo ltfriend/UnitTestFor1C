@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>7f375fff-6ff9-4864-8d28-c54db5ba1aa6</xr:ObjectId>
+				<xr:ObjectId>994daceb-4764-4400-953e-7d9ed1140a0e</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -47,7 +47,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Толкачев Павел Владимирович</Vendor>
-			<Version>1.0.1.5</Version>
+			<Version>1.0.2.2</Version>
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -97,6 +97,8 @@
 			<CommonPicture>мт_ТестНеПрошел</CommonPicture>
 			<CommonPicture>мт_ТестПрошел</CommonPicture>
 			<Role>мт_ВыполнениеТестирования</Role>
+			<CommonModule>мт_ТестированиеHTTPСервисовВызовСервера</CommonModule>
+			<CommonModule>мт_ТестированиеHTTPСервисовКлиентСервер</CommonModule>
 			<CommonModule>мт_ТестированиеКлиентСервер</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебный</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебныйВызовСервера</CommonModule>
@@ -105,6 +107,7 @@
 			<CommonModule>мт_ТестированиеСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебныйПовтИсп</CommonModule>
 			<DataProcessor>мт_МодульноеТестирование</DataProcessor>
+			<InformationRegister>мт_НастройкиТестирования</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
