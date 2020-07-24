@@ -47,8 +47,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Развернуть</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеHTTPСервисовВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеHTTPСервисовКлиентСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">a6ff60ac-4a44-4b36-8347-5d502761d887</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.мт_НастройкиТестирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.мт_СлужебнаяФорма</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -69,6 +69,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.мт_СлужебнаяФорма</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.мт_МодульноеТестирование</name>
 		<right>
 			<name>View</name>

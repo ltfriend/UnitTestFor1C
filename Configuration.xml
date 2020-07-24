@@ -47,7 +47,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Толкачев Павел Владимирович</Vendor>
-			<Version>1.0.2.2</Version>
+			<Version>1.0.2.5</Version>
 			<BriefInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -99,6 +99,7 @@
 			<Role>мт_ВыполнениеТестирования</Role>
 			<CommonModule>мт_ТестированиеHTTPСервисовВызовСервера</CommonModule>
 			<CommonModule>мт_ТестированиеHTTPСервисовКлиентСервер</CommonModule>
+			<CommonModule>мт_ТестированиеВызовСервера</CommonModule>
 			<CommonModule>мт_ТестированиеКлиентСервер</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебный</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебныйВызовСервера</CommonModule>
@@ -106,6 +107,7 @@
 			<CommonModule>мт_ТестированиеСлужебныйКлиентПовтИсп</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>мт_ТестированиеСлужебныйПовтИсп</CommonModule>
+			<CommonForm>мт_СлужебнаяФорма</CommonForm>
 			<DataProcessor>мт_МодульноеТестирование</DataProcessor>
 			<InformationRegister>мт_НастройкиТестирования</InformationRegister>
 		</ChildObjects>
