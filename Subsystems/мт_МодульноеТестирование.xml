@@ -40,7 +40,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебный</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Настройки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйКлиентПовтИсп</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">6bb5620c-b3e4-4310-8404-4a633d4d4bd4</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.мт_ТестированиеСлужебныйВызовСервера</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_РазделМодульноеТестирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.мт_Свернуть</xr:Item>
