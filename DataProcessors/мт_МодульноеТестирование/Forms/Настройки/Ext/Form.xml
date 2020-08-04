@@ -11,7 +11,6 @@
 	<CommandBarLocation>Bottom</CommandBarLocation>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<HorizontalAlign>Right</HorizontalAlign>
-		<Autofill>false</Autofill>
 		<ChildItems>
 			<Button name="СохранитьНастройки" id="1">
 				<Type>CommandBarButton</Type>
@@ -24,6 +23,23 @@
 				<CommandName>Form.Command.ОтменитьИзменения</CommandName>
 				<ExtendedTooltip name="ОтменитьИзмененияРасширеннаяПодсказка" id="22"/>
 			</Button>
+			<ButtonGroup name="ФормаГруппа" id="52">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Форма группа</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаГруппаРасширеннаяПодсказка" id="53"/>
+				<ChildItems>
+					<Button name="ФормаУстановитьСтандартныеНастройки" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УстановитьСтандартныеНастройки</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаУстановитьСтандартныеНастройкиРасширеннаяПодсказка" id="55"/>
+					</Button>
+				</ChildItems>
+			</ButtonGroup>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -32,6 +48,69 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ПредставлениеТестов" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление тестов</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ПредставлениеТестовРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<CheckBoxField name="ПробелыВместоПодчеркиванияВНазванияхТестов" id="41">
+					<DataPath>ПробелыВместоПодчеркиванияВНазванияхТестов</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заменять символы подчеркивания на пробелы в названиях тестов</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПробелыВместоПодчеркиванияВНазванияхТестовКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПробелыВместоПодчеркиванияВНазванияхТестовРасширеннаяПодсказка" id="43"/>
+				</CheckBoxField>
+				<UsualGroup name="ГруппаУдалятьПрефиксыВНазванияхТестов" id="44">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа удалять префиксы в названиях тестов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаУдалятьПрефиксыВНазванияхТестовРасширеннаяПодсказка" id="45"/>
+					<ChildItems>
+						<CheckBoxField name="УдалятьПрефиксВНазванияхТестов" id="46">
+							<DataPath>УдалятьПрефиксВНазванияхТестов</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Удалять из названий тестов префикс</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="УдалятьПрефиксВНазванияхТестовКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="УдалятьПрефиксВНазванияхТестовРасширеннаяПодсказка" id="48"/>
+							<Events>
+								<Event name="OnChange">УдалятьПрефиксВНазванияхТестовПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<InputField name="ПрефиксНазванийТестов" id="49">
+							<DataPath>ПрефиксНазванийТестов</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>8</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ПрефиксНазванийТестовКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="ПрефиксНазванийТестовРасширеннаяПодсказка" id="51"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаСохранениеРезультатов" id="11">
 			<Title>
 				<v8:item>
@@ -362,6 +441,44 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
+		<Attribute name="ПробелыВместоПодчеркиванияВНазванияхТестов" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пробелы вместо подчеркивания в названиях тестов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="УдалятьПрефиксВНазванияхТестов" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалять префикс в названиях тестов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ПрефиксНазванийТестов" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Префикс названий тестов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>20</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<FillCheck>ShowError</FillCheck>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="СохранитьНастройки" id="1">
@@ -385,7 +502,12 @@
 					<v8:content>Сохранить настройки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Write</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Action>СохранитьНастройки</Action>
+			<Representation>Text</Representation>
 		</Command>
 		<Command name="ОтменитьИзменения" id="2">
 			<Title>
@@ -409,6 +531,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОтменитьИзменения</Action>
+		</Command>
+		<Command name="УстановитьСтандартныеНастройки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить стандартные настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установить стандартные настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УстановитьСтандартныеНастройки</Action>
 		</Command>
 	</Commands>
 </Form>
