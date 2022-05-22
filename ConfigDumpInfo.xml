@@ -57,16 +57,16 @@
 		<Metadata name="CommonPicture.мт_ТестНеПрошел.Picture" id="8dbeeb97-c089-428b-8f12-8674616b95e8.0" configVersion="bd44f2e87d31b34bd9de442fb2a7433a9ddb414f"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab" configVersion="ab9d1faf21d29da00bd31a62a02700579210edb3"/>
 		<Metadata name="CommonPicture.мт_ТестПрошел.Picture" id="8e2d506e-d62d-416f-bda0-8201fb7eaeab.0" configVersion="a66cb9d49575e9ae937480a01550e5e469d55902"/>
-		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="12a8df0f5ce8df9e30c61ba848fc6d87ed854a81"/>
+		<Metadata name="Configuration.МодульноеТестирование" id="4e831d43-eb58-4054-890a-c810b5bb3f4b" configVersion="bc0fde0d0920bf7581f8c4d49763ea0973be7618"/>
 		<Metadata name="Configuration.МодульноеТестирование.ManagedApplicationModule" id="2ec196ec-0f00-4f44-8564-6f5995d13396.6" configVersion="da43935415db81f39af08f587063becbaeecbeba"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование" id="5bdf471b-a4a6-42d0-8e98-dd25cdeea743" configVersion="19da2b45ec98854a9a89445f252f9d4051cc0efc">
 			<Metadata name="DataProcessor.мт_МодульноеТестирование.Command.ОбозревательТестов" id="4396312f-1d80-4238-b9b4-8058c3fb1cc4"/>
 		</Metadata>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Command.ОбозревательТестов.CommandModule" id="4396312f-1d80-4238-b9b4-8058c3fb1cc4.2" configVersion="8fe34dfa441d50fd99493f10b46e93c2dbd74d39"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e" configVersion="0cb683e3755d387dd90a60e1327ffc340ad9e04c"/>
-		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки.Form" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e.0" configVersion="c82166f0a40c0067bca262ea872e353bda3d29a4"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Настройки.Form" id="1118bf4d-c9a8-4381-b3de-4a328e3e088e.0" configVersion="fb788c7c2814790a8b620312bb8c01575611e84f"/>
 		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf" configVersion="32632c6757dfb7c407c59673b9a0beccb5cb66f3"/>
-		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="be8607fe7041822727259d897b1a720628b81426"/>
+		<Metadata name="DataProcessor.мт_МодульноеТестирование.Form.Форма.Form" id="cd425e75-e7c2-4f99-852b-24b3e6646ddf.0" configVersion="4ab5d353f8b25da8bdfed37e58c7ae39fe676a3a"/>
 		<Metadata name="InformationRegister.мт_НастройкиТестирования" id="171526a0-1f52-46d7-affc-8fe9675b3dc1" configVersion="86ab599071b746471a0bbd8f11ea6012181a0c9e">
 			<Metadata name="InformationRegister.мт_НастройкиТестирования.Resource.Настройки" id="4e417c8e-12a3-46b1-8c7f-d4748a043732"/>
 		</Metadata>
